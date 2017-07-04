@@ -97,6 +97,21 @@ My final model results were:
 * validation set accuracy of 0.944 
 * test set accuracy of 0.936
 
+-What was the first architecture that was tried and why was it chosen?
+A: I used an architecture similar to the 5-LeNet. I used it because the accuracy proven to be very good.
+
+-What were some problems with the initial architecture?
+A: The architecture works well but a little bit overfitting.
+
+-How was the architecture adjusted and why was it adjusted?
+A: Bring in dropout with keeping probability 0.7 
+
+-Which parameters were tuned? How were they adjusted and why?
+A: Epoch, learning rate, batch size, and drop out probability were all parameters tuned. For Epoch, when I set it to 15, it seems the validation accuracy began decreaing after the 10th epoch, so finally it was set as 10. Increase the batch size from 128 to 150 would accelerate the training process. The learning rate of 0.001 works pretty well so I did not change it. The keep probablity works well as 0.5, 0.6 and 0.7. I think 0.7 is low enough to prevent the overfitting. 
+
+-What are some of the important design choices and why were they chosen? 
+Actually I found the number of data in each class is not the even, so I gonna try to add more data using rotating or other means for those classes with less data. I thinks this will improve the performance of my model.
+
 If a well known architecture was chosen:
 * What architecture was chosen? 
 A: Lenet but using the dropout
