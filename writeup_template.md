@@ -26,7 +26,7 @@ The goals / steps of this project are the following:
 ####1. Provide a Writeup / README that includes all the rubric points and how you addressed each one. You can submit your writeup as markdown or pdf. You can use this template as a guide for writing the report. The submission includes the project code.
 
 Here is a link to my Project 2.
-(https://github.com/udacity/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.ipynb)
+(https://github.com/myladyace/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.ipynb)
 
 ###Data Set Summary & Exploration
 
@@ -45,7 +45,11 @@ signs data set:
 
 Here is an exploratory visualization of the data set. It is a bar chart showing how many datas marked as each labels in the training set.
 
-![alt text][image1]
+![Train Image Count](https://github.com/myladyace/CarND-Traffic-Sign-Classifier-Project/blob/master/writeup_images/Train_data_count.png)
+
+Also 6 random images from training data set are below:
+
+![Train Image Plot](https://github.com/myladyace/CarND-Traffic-Sign-Classifier-Project/blob/master/writeup_images/Train_data_samples.png)
 
 ###Design and Test a Model Architecture
 
@@ -110,7 +114,7 @@ New images are from the http://benchmark.ini.rub.de/?section=gtsrb&subsection=da
 
 Here are five German traffic signs that I found on the web:
 
-![alt text][image4]
+![5 Test Images](https://github.com/myladyace/CarND-Traffic-Sign-Classifier-Project/blob/master/writeup_images/5_Test_images.png)
 
 The second image might be difficult to classify because the resolution is not good and there is another sign on top of the roundabout sign.
 The third and fourth may be difficult given the low resolution so that the number may not be correctly classfied.
